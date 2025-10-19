@@ -126,8 +126,3 @@ POST /productions
 2. Record added to production_items table.
 3. Update inventory status: "available" → "consumed".
 4. Optionally, add finished goods to inventory (role = "FINISHED_GOOD").
-
-
-## Author
-
-Om Patil
