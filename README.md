@@ -127,24 +127,6 @@ POST /productions
 3. Update inventory status: "available" → "consumed".
 4. Optionally, add finished goods to inventory (role = "FINISHED_GOOD").
 
----
-
-## Notes
-
-- Use proper status updates for Purchase and Inventory to keep data consistent.
-- Each phase (Purchase → Inventory → Production) is interconnected.
-- Line endings warnings (LF → CRLF) may appear on Windows but can be ignored.
-- You can delete inventory items if damaged or discard them by changing their status.
-
----
-
-## Future Enhancements
-
-- Add user roles and permissions (manager vs. regular user)
-- Add reporting for stock levels and production efficiency
-- Handle batch production and partial consumption of inventory items
-
----
 
 ## Author
 
